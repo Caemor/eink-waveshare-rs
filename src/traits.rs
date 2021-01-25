@@ -1,7 +1,7 @@
 use core::marker::Sized;
 use embedded_hal::{
     blocking::{delay::*, spi::Write},
-    digital::v2::*,
+    digital::*,
 };
 
 /// All commands need to have this trait which gives the address of the command
